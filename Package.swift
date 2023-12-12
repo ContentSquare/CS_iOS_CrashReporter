@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "CS_iOS_CrashReporter",
+    name: "CSCrashReporter",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "CSPLCrashReporter",
-            targets: ["CSPLCrashReporter"])
+            name: "CSCrashReporter",
+            targets: ["CSCrashReporter"])
     ],
     targets: [
         .binaryTarget(
-            name: "CSPLCrashReporter",
-            url: "https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/0.0.2/CSCrashReporter.xcframework.zip",
-            checksum: "f32faa31fa900ab170ab64136c8c5b1306e39295b858623f4f6ed0546ce8c369")
+            name: "CSCrashReporter",
+            url: "https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/0.0.3/CSCrashReporter.xcframework.zip",
+            checksum: "6499324f885d02026e5a3e30b535c8e9b3a6e3be624bd05059ef4e1e41070b97")
     ]
 )
