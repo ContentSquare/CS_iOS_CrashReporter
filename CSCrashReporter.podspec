@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'CSCrashReporter'
-s.version = '0.0.3'
+s.version = '1.0.0'
 s.summary = 'CrashReporter used by Contentsquare'
 s.homepage = 'https://docs.contentsquare.com/ios'
 s.author = { 'Romain Bouic' => 'romain.bouic@contentsquare.com' }
@@ -27,5 +27,5 @@ s.platform = :ios
 s.swift_version = '5.1'
 s.ios.deployment_target = '12.0'
 s.ios.vendored_frameworks = 'CSCrashReporter.xcframework'
-s.source = { :http => 'https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/0.0.3/CSCrashReporter.xcframework.zip', :flatten  => true }
+s.source = { :http => 'https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/1.0.0/CSCrashReporter.xcframework.zip', :flatten  => true }
 end
