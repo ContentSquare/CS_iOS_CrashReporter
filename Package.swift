@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CSCrashReporter",
-            url: "https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/0.0.3/CSCrashReporter.xcframework.zip",
-            checksum: "6499324f885d02026e5a3e30b535c8e9b3a6e3be624bd05059ef4e1e41070b97")
+            url: "https://github.com/ContentSquare/CS_iOS_CrashReporter/releases/download/1.0.0/CSCrashReporter.xcframework.zip",
+            checksum: "fc35487b598136a47fcf1b2fea5350b2db4847dcf3e46241cfa25069d670efb2")
     ]
 )
