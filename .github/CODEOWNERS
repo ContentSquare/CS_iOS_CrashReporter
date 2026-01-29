@@ -1,5 +1,7 @@
 # CODEOWNERS documentation : https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners
 
+* @ContentSquare/ios
+
 # ==============
 # Platform stuff
 # ==============
@@ -10,6 +12,9 @@ Dockerfile* @ContentSquare/Platform
 
 # .github controls CODEOWNERS
 /.github/CODEOWNERS @ContentSquare/Platform
+
+# Protect .github/agents folder for GitHub Copilot agents
+/.github/agents/ @ContentSquare/ios
 
 # ==============
 # Platform stuff
